@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jordan Clark's Pressure Washing | Car Wash Services</title>
+  <meta name="description" content="Affordable car pressure washing by Jordan Clark. Basic exterior and premium interior + exterior washes. Book online today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="logo-mark">⬡</span> Jordan Clark's Pressure Washing
+      </a>
+      <button class="nav__toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Results</a></li>
+        <li><a href="#booking" class="btn btn--nav">Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="home">
+    <div class="hero__bg-grid" aria-hidden="true"></div>
+    <div class="container hero__content">
+      <p class="hero__eyebrow">Car Pressure Washing</p>
+      <h1 class="hero__headline">
+        We Make Things<br />
+        <span class="hero__blast">CLEAN.</span>
+      </h1>
+      <p class="hero__sub">
+        Affordable, no-fuss car washes.<br />
+        Starting at $20. I come to you — all I need is a garden hose and an outlet.
+      </p>
+      <div class="hero__ctas">
+        <a href="#booking" class="btn btn--primary">Book a Wash</a>
+        <a href="#pricing" class="btn btn--ghost">See Pricing</a>
+      </div>
+    </div>
+    <div class="hero__scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">What I Offer</p>
+        <h2 class="section-title">Services</h2>
+      </div>
+      <div class="services__grid services__grid--two">
+
+        <article class="service-card">
+          <div class="service-card__icon">🚿</div>
+          <h3 class="service-card__title">Basic Wash</h3>
+          <p class="service-card__desc">A thorough pressure wash of the full exterior — body panels, wheels, and tires. Great for knocking off everyday dirt and road grime.</p>
+          <ul class="service-card__list">
+            <li>Full exterior pressure wash</li>
+            <li>Wheels &amp; tires</li>
+            <li>Rinse &amp; dry</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon">✨</div>
+          <h3 class="service-card__title">Premium Wash</h3>
+          <p class="service-card__desc">Everything in the basic wash, plus a full interior clean — vacuuming, wiping down surfaces, and clearing out the mess inside.</p>
+          <ul class="service-card__list">
+            <li>Everything in Basic</li>
+            <li>Interior vacuum</li>
+            <li>Dashboard &amp; surface wipe-down</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Simple Pricing</p>
+        <h2 class="section-title">No Surprises</h2>
+      </div>
+      <div class="pricing__grid">
+
+        <div class="pricing-card">
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name">Basic Wash</h3>
+            <p class="pricing-card__sub">Exterior only</p>
+          </div>
+          <div class="pricing-card__tiers">
+            <div class="pricing-tier">
+              <span class="pricing-tier__label">Small Car</span>
+              <span class="pricing-tier__price">$20</span>
+            </div>
+            <div class="pricing-tier">
+              <span class="pricing-tier__label">Mid / Large Car</span>
+              <span class="pricing-tier__price">$25</span>
+            </div>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Full exterior pressure wash</li>
+            <li>Wheels &amp; tires</li>
+            <li>Rinse &amp; dry</li>
+          </ul>
+          <a href="#booking" class="btn btn--ghost-dark">Book Basic Wash</a>
+        </div>
+
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-card__badge">Most Popular</div>
+          <div class="pricing-card__header">
+            <h3 class="pricing-card__name">Premium Wash</h3>
+            <p class="pricing-card__sub">Interior + Exterior</p>
+          </div>
+          <div class="pricing-card__tiers">
+            <div class="pricing-tier">
+              <span class="pricing-tier__label">Small Car</span>
+              <span class="pricing-tier__price">$30</span>
+            </div>
+            <div class="pricing-tier">
+              <span class="pricing-tier__label">Mid / Large Car</span>
+              <span class="pricing-tier__price">$40</span>
+            </div>
+          </div>
+          <ul class="pricing-card__features">
+            <li>Everything in Basic</li>
+            <li>Interior vacuum</li>
+            <li>Dashboard &amp; surface wipe-down</li>
+          </ul>
+          <a href="#booking" class="btn btn--primary">Book Premium Wash</a>
+        </div>
+
+      </div>
+      <p class="pricing__note">Not sure which size your car is? Small = sedans, coupes, hatchbacks. Mid/Large = SUVs, trucks, vans, and full-size sedans.</p>
+    </div>
+  </section>
+
+  <!-- BEFORE & AFTER GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">The Proof</p>
+        <h2 class="section-title">Before &amp; After</h2>
+      </div>
+      <div class="gallery__grid">
+
+        <div class="before-after">
+          <div class="before-after__images">
+            <div class="before-after__panel">
+              <img src="images/before-1.jpg" alt="Car before wash — dirty exterior" loading="lazy" />
+              <span class="before-after__label">Before</span>
+            </div>
+            <div class="before-after__panel">
+              <img src="images/after-1.jpg" alt="Car after wash — clean exterior" loading="lazy" />
+              <span class="before-after__label after">After</span>
+            </div>
+          </div>
+          <p class="before-after__caption">Basic Exterior Wash</p>
+        </div>
+
+        <div class="before-after">
+          <div class="before-after__images">
+            <div class="before-after__panel">
+              <img src="images/before-2.jpg" alt="Car interior before wash" loading="lazy" />
+              <span class="before-after__label">Before</span>
+            </div>
+            <div class="before-after__panel">
+              <img src="images/after-2.jpg" alt="Car interior after wash" loading="lazy" />
+              <span class="before-after__label after">After</span>
+            </div>
+          </div>
+          <p class="before-after__caption">Premium Interior + Exterior</p>
+        </div>
+
+        <div class="before-after">
+          <div class="before-after__images">
+            <div class="before-after__panel">
+              <img src="images/before-3.jpg" alt="Dirty wheels and tires before wash" loading="lazy" />
+              <span class="before-after__label">Before</span>
+            </div>
+            <div class="before-after__panel">
+              <img src="images/after-3.jpg" alt="Clean wheels and tires after wash" loading="lazy" />
+              <span class="before-after__label after">After</span>
+            </div>
+          </div>
+          <p class="before-after__caption">Wheels &amp; Tires Detail</p>
+        </div>
+
+      </div>
+      <p class="gallery__note">📸 Replace the placeholder filenames above with your actual images — see the README for how.</p>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="booking">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Get on the Calendar</p>
+        <h2 class="section-title">Book a Wash</h2>
+        <p class="booking__desc">Pick a time that works for you below. Once it's confirmed, just show up — I'll handle the rest.</p>
+      </div>
+      <div class="booking__embed-wrapper">
+        <!-- Cal.com embed — replace YOUR_CAL_USERNAME with your actual Cal.com username -->
+        <iframe
+          src="https://cal.com/jordan-clark-bufuf0/"
+          width="100%"
+          height="700"
+          frameborder="0"
+          title="Book a wash with Jordan Clark's Pressure Washing"
+          loading="lazy"
+          class="booking__iframe"
+        ></iframe>
+        <p class="booking__fallback">
+          Having trouble with the calendar?
+          <a href="https://cal.com/jordan-clark-bufuf0/" target="_blank" rel="noopener noreferrer">Open it in a new tab →</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="nav__logo">
+        <span class="logo-mark">⬡</span> Jordan Clark's Pressure Washing
+      </a>
+      <p class="footer__tagline">Affordable Car Washing · Book Online</p>
+      <nav class="footer__links" aria-label="Footer navigation">
+        <a href="#services">Services</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#gallery">Results</a>
+        <a href="#booking">Book</a>
+      </nav>
+      <p class="footer__copy">&copy; <span id="year"></span> Jordan Clark's Pressure Washing. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
